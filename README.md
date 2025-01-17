@@ -30,29 +30,30 @@ Provides breed identification with confidence scores, same as mobile application
 **Preprocessing**: Training data augmented with real-world variations; validation data rescaled without augmentation.<br>
 **Model**<br>
 Fine-tuned InceptionV3 architecture:<br>
-GlobalAveragePooling2D, BatchNormalization, Dropout, and Dense layers added.<br>
-Gradual unfreezing of layers for fine-tuning.<br>
-Training: Optimized using Adam optimizer with categorical crossentropy loss.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;GlobalAveragePooling2D;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;BatchNormalization;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Dropout;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Dense;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Gradual unfreezing of layers for fine-tuning.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Training: Optimized using Adam optimizer with categorical crossentropy loss.<br>
 **Evaluation Metrics**
 Accuracy, Precision, Recall, and F1 Score evaluated on training and validation datasets.<br>
 
 **Applications**<br>
-Mobile App: User-friendly interface for real-world use cases.
-Telegram Bot: Seamless interaction for quick classification.
-How to Use
-Mobile App:
+**Mobile App**: User-friendly interface for real-world use cases.<br>
+**Telegram Bot**: Seamless interaction for quick classification.<br>
 
+**How to Use Mobile App:**
 Install the APK file on an Android device.
 Use the camera or gallery to classify dog breeds.
-Telegram Bot:
 
-Start a conversation with the bot.
-Upload an image for instant classification.
+**How to Use Telegram Bot:**<br>
+Start a conversation with the bot.<br>
+Upload an image for instant classification.<br>
 
-Results
-High accuracy achieved through transfer learning.
-Robust performance despite limited training data and computational resources.
-Future Work
-Expand the dataset for improved accuracy across rare breeds.
-Enhance the mobile and bot interfaces for better user experience.
-
+**Results**:<br>
+Using testing data that contains 6384 photos of 120 dog breeds and confidence threshold set to 0.7 model managed to get this results on evaluation metrics:
+&nbsp;&nbsp;&nbsp;&nbsp;**Accuracy** - 95.34%<br>
+&nbsp;&nbsp;&nbsp;&nbsp;**Precision** - 0.95<br>
+&nbsp;&nbsp;&nbsp;&nbsp;**Recall** - 0.98<br>
+&nbsp;&nbsp;&nbsp;&nbsp;**F1-score** - 0.97<br>
