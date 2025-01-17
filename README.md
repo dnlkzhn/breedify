@@ -36,7 +36,7 @@ Fine-tuned InceptionV3 architecture:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Dense;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Gradual unfreezing of layers for fine-tuning.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Training: Optimized using Adam optimizer with categorical crossentropy loss.<br>
-**Evaluation Metrics**
+**Evaluation Metrics**:
 Accuracy, Precision, Recall, and F1 Score evaluated on training and validation datasets.<br>
 
 **Applications**<br>
