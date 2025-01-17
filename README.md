@@ -9,19 +9,19 @@ The system comprises **three** main components:
 **Mobile Application**: An Android app for real-time dog breed identification.<br>
 **Telegram Bot**: An interactive bot for quick and accessible breed classification.<br>
 
-**Features**
+**Features**<br>
 **Neural Network Model**
 **Architecture**: Pre-trained InceptionV3 model with a custom classification head.<br>
 **Transfer Learning**: Fine-tuned for optimal performance on a dataset of dog breeds.<br>
 **Data Augmentation**: Techniques include rotations, shifts, shearing, zooming, and flipping to improve generalization.<br>
 
-**Mobile Application**
-Capture or upload images for classification.
+**Mobile Application**<br>
+Capture or upload images for classification.<br>
 Results include breed identification and confidence levels:
-High Confidence (>70%): Reliable classification.
-Moderate Confidence (50-70%): Informative but less certain.
-Low Confidence (<50%): Limited reliability.
-Telegram Bot
+&nbsp;&nbsp;&nbsp;&nbsp;High Confidence (>70%): Reliable classification.
+&nbsp;&nbsp;&nbsp;&nbsp;Moderate Confidence (50-70%): Informative but less certain.
+&nbsp;&nbsp;&nbsp;&nbsp;Low Confidence (<50%): Limited reliability.
+**Telegram Bot**<br>
 Upload images directly through Telegram for classification.
 Provides breed identification with confidence scores, same as mobile application
 
