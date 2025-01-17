@@ -3,17 +3,17 @@ Dog Breed Identification Using InceptionV3
 This project implements a convolutional neural network (CNN) based on the InceptionV3 architecture to identify dog breeds from photographic images. Leveraging transfer learning and advanced preprocessing techniques, the model achieves robust performance with limited computational resources.
 
 **Project Overview**<br>
-The system comprises three main components:
+The system comprises **three** main components:
 
-Model Development: A fine-tuned InceptionV3 CNN for image classification.
-Mobile Application: An Android app for real-time dog breed identification.
-Telegram Bot: An interactive bot for quick and accessible breed classification.
+**Model Development**: A fine-tuned InceptionV3 CNN for image classification.
+**Mobile Application**: An Android app for real-time dog breed identification.
+**Telegram Bot**: An interactive bot for quick and accessible breed classification.
 
-Features
-Neural Network Model
-Architecture: Pre-trained InceptionV3 model with a custom classification head.
-Transfer Learning: Fine-tuned for optimal performance on a dataset of dog breeds.
-Data Augmentation: Techniques include rotations, shifts, shearing, zooming, and flipping to improve generalization.
+**Features**
+**Neural Network Model**
+**Architecture**: Pre-trained InceptionV3 model with a custom classification head.
+**Transfer Learning**: Fine-tuned for optimal performance on a dataset of dog breeds.
+**Data Augmentation**: Techniques include rotations, shifts, shearing, zooming, and flipping to improve generalization.
 
 Mobile Application
 Capture or upload images for classification.
