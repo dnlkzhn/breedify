@@ -5,9 +5,9 @@ This project implements a convolutional neural network (CNN) based on the Incept
 **Project Overview**<br>
 The system comprises **three** main components:
 
-**Model Development**: A fine-tuned InceptionV3 CNN for image classification.
-**Mobile Application**: An Android app for real-time dog breed identification.
-**Telegram Bot**: An interactive bot for quick and accessible breed classification.
+**Model Development**: A fine-tuned InceptionV3 CNN for image classification.<br>
+**Mobile Application**: An Android app for real-time dog breed identification.<br>
+**Telegram Bot**: An interactive bot for quick and accessible breed classification.<br>
 
 **Features**
 **Neural Network Model**
