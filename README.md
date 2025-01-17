@@ -18,9 +18,9 @@ The system comprises **three** main components:
 **Mobile Application**<br>
 Capture or upload images for classification.<br>
 Results include breed identification and confidence levels:
-&nbsp;&nbsp;&nbsp;&nbsp;High Confidence (>70%): Reliable classification.
-&nbsp;&nbsp;&nbsp;&nbsp;Moderate Confidence (50-70%): Informative but less certain.
-&nbsp;&nbsp;&nbsp;&nbsp;Low Confidence (<50%): Limited reliability.
+&nbsp;&nbsp;&nbsp;&nbsp;High Confidence (>70%): Reliable classification.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Moderate Confidence (50-70%): Informative but less certain.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Low Confidence (<50%): Limited reliability.<br>
 **Telegram Bot**<br>
 Upload images directly through Telegram for classification.
 Provides breed identification with confidence scores, same as mobile application
