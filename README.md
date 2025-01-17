@@ -2,7 +2,7 @@
 Dog Breed Identification Using InceptionV3
 This project implements a convolutional neural network (CNN) based on the InceptionV3 architecture to identify dog breeds from photographic images. Leveraging transfer learning and advanced preprocessing techniques, the model achieves robust performance with limited computational resources.
 
-**Project Overview**
+**Project Overview**<br>
 The system comprises three main components:
 
 Model Development: A fine-tuned InceptionV3 CNN for image classification.
