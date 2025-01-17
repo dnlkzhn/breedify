@@ -26,18 +26,17 @@ Upload images directly through Telegram for classification.<br>
 Provides breed identification with confidence scores, same as mobile application.<br>
 
 **Methodology**<br>
-**Data**<br>
-**Sources**: Combined datasets from the Stanford Dogs Dataset and Kaggle Dog Breed Identification Dataset.<br>
+**Data Sources**: Combined datasets from the Stanford Dogs Dataset and Kaggle Dog Breed Identification Dataset.<br>
 **Preprocessing**: Training data augmented with real-world variations; validation data rescaled without augmentation.<br>
-Model
-Fine-tuned InceptionV3 architecture:
-GlobalAveragePooling2D, BatchNormalization, Dropout, and Dense layers added.
-Gradual unfreezing of layers for fine-tuning.
-Training: Optimized using Adam optimizer with categorical crossentropy loss.
-Evaluation Metrics
-Accuracy, Precision, Recall, and F1 Score evaluated on training and validation datasets.
+**Model**<br>
+Fine-tuned InceptionV3 architecture:<br>
+GlobalAveragePooling2D, BatchNormalization, Dropout, and Dense layers added.<br>
+Gradual unfreezing of layers for fine-tuning.<br>
+Training: Optimized using Adam optimizer with categorical crossentropy loss.<br>
+**Evaluation Metrics**
+Accuracy, Precision, Recall, and F1 Score evaluated on training and validation datasets.<br>
 
-Applications
+**Applications**<br>
 Mobile App: User-friendly interface for real-world use cases.
 Telegram Bot: Seamless interaction for quick classification.
 How to Use
