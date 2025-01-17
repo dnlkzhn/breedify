@@ -52,7 +52,7 @@ Start a conversation with the bot.<br>
 Upload an image for instant classification.<br>
 
 **Results**:<br>
-Using testing data that contains 6384 photos of 120 dog breeds and confidence threshold set to 0.7 model managed to get this results on evaluation metrics:
+Using testing data that contains 6384 photos of 120 dog breeds and confidence threshold set to 0.7 model managed to get this results on evaluation metrics:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;**Accuracy** - 95.34%<br>
 &nbsp;&nbsp;&nbsp;&nbsp;**Precision** - 0.95<br>
 &nbsp;&nbsp;&nbsp;&nbsp;**Recall** - 0.98<br>
