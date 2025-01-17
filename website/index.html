@@ -1,1 +1,343 @@
+<!DOCTYPE HTML>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Vladysalv Dovhyi" />
+    <link rel="stylesheet" href="static/css/Style.css" media="screen" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <title>Breedify</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <header>
+            <div class="header">
+
+                <div class="logo">
+                    <img src="static/LOGO/fullmainlogo.png" alt="Logo">
+                </div>
+                <div class="menu">
+                    <button id="menuTitle">Menu</button>
+
+                    <nav id="menuIts" class="menu mnHide">
+                        <div class="menu_opt">
+                            <a href="#welcome">Main</a>
+                            <a href="#articles">About us</a>
+                            <a href="#opinions">Comments</a>
+                            <a href="#addOpinion">Add Review</a>
+                            <a href="#artInsert">Try our APP</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main id="router-view">
+
+        </main>
+
+        <footer>
+            <div class="line_between"></div>
+            <div class="info">
+                <div class="logo">
+                    <img src="static/LOGO/fullmainlogo.png" alt="" class="logo">
+                </div>
+
+                <p>All rights reserved.</p>
+                <p>&copy; 2024 Breedify</p>
+            </div>
+
+            <div class="country">
+                <p>Kosice, Slovakia</p>
+                <p>SD Jedlikova 9</p>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <div class="social-icons">
+                    <a href="/https://facebook.com" target="_blank"><img src="static/LOGO/facebook.png"
+                            alt="Facebook"></a>
+                    <a href="https://instagram.com" target="_blank"><img src="static/LOGO/instagram.png"
+                            alt="Instagram"></a>
+                </div>
+
+        </footer>
+
+        <script id="template-welcome" type="text/template">
+    <article>
+        <div class = "para1">
+            <span>Your Journey to</span>  
+            <span>Understanding Every Dog </span>  
+            <span>Breed Starts Here</span>      
+        </div>
+        <div class = "under_para1">
+            <span>Scan, recognize, learn more about your pets.</span>
+            <span>It's like having an experienced dog handler in your pocket.</span> 
+        </div>
+        <div class="container">
+            <div class="phone">
+                <img src="static/LOGO/phone2.png" alt="Phone Image">
+            </div>
+                <div id="bouble">
+                    <div class="leg">
+                        With Breedify, you can unlock the secrets of every breed with the help of powerful artificial intelligence. Scan, learn the characteristics and features of your pet's breed. All you need is one touch!
+                        <img src="static/LOGO/Gemini_Generated_Image_iu08kuiu08kuiu08.jpg" >
+                    </div>
+            </div> 
+        </div>
+  
+    </main>
+    
+    <div class="line_between"></div>
+    <div class = "textupload">
+        <h2>You can download our app for android</h2>
+    </div>
+    </div>
+    <div>
+        <div class="bot_arrow">
+            <img src="static/LOGO/down-arrow-svgrepo-com.svg" alt="">
+        </div>
+        <div class="button_and_logo">
+            <button class="download_app">
+                <a href="https://t.me/BreedifyBot" target="_blank">
+                    BreedifyApp
+                </a>
+            </button>
+        </div>
+    </div>
+    
+</article>
+</script>
+    <script id="template-articles" type="text/template">
+    <div class = "para1">
+        <span>About Breedify</span>  
+        
+    </div>
+    <div class = "story">
+        <p>We are a group of young, promising, and enthusiastic students from the Technical University of Košice, and we are excited to introduce our product, Breedify.Breedify is an innovative mobile app designed to identify dog breeds from photos. </p>
+
+        <p>At the heart of our app is a custom-built model based on the powerful InceptionV3 architecture, which we have fine-tuned to achieve impressive accuracy in recognizing a wide variety of dog breeds. Our model can effortlessly distinguish between numerous breeds, making Breedify a valuable tool for dog enthusiasts, breeders, and pet owners alike. We are incredibly proud of the precision and performance of our model and are eager to share it with the world.</p> 
+    </div>
+    <div class="container2">
+        <div class="card">
+            <img src="static/LOGO/f008c473-c422-4f72-9540-953e103444f0.jpg" alt="Image 1" class="image">
+            <h1 class="title">Danil Kozhan</h1>
+            <p class="text">Danil Kozhan – the chief and coordinator of the team. He managed all aspects of the project: planned tasks, distributed responsibilities among team members, monitored work progress, and tested the final results. Thanks to his effective leadership, the project developed systematically and on time, with all stages carefully reviewed before launch.</p>
+        </div>
+        <div class="card">
+            <img src="static/LOGO/c2066488-ec73-4ab3-8d1e-4770483863ad.jpg" alt="Image 2" class="image">
+            <h1 class="title">Vladyslav Dovhyi</h1>
+            <p class="text">Vladyslav Dovhyi – the web developer who created a functional and user-friendly website for interacting with the neural network. He developed a platform that enables users to upload photos of their pets and receive instant breed identification results. Vladyslav also ensured intuitive design and smooth website operation, guaranteeing its stability and high performance.</p>
+        </div>
+        <div class="card">
+            <img src="static/LOGO/eexg_jnr2_230629.jpg" alt="Image 3" class="image">
+            <h1 class="title">Andrii Denysenko</h1>
+            <p class="text">Andrii Denysenko – the lead neural network engineer and developer of additional services. He was responsible for developing, training, and configuring the model that became the core of the project. Andriy handled the selection of the neural network architecture, its optimization, and output control, ensuring high accuracy in identifying dog breeds, even in challenging cases. Additionally, he created a Telegram bot that allows users to recognize dog breeds directly through the messenger, making the project even more accessible.</p>
+        </div>
+        <div class="card">
+            <img src="static/LOGO/q0k2_ubdd_230629.jpg" alt="Image 4" class="image">
+            <h1 class="title">Mykhailo Pavlenko</h1>
+            <p class="text">Mykhailo Pavlenko – the developer of the Android mobile application and server solutions. He built a convenient app that allows users to recognize dog breeds anytime, anywhere. Moreover, Mykhailo configured the server for receiving responses from the neural network, ensuring fast and reliable interaction between the website, the mobile app, and the core model.</p>
+        </div>
+        <div class="card">
+            <img src="static/LOGO/b36434b9-a380-4a52-a0dd-72f13b4f4086.jpg" alt="Image 5" class="image">
+            <h1 class="title">Alexandr Ahobadze</h1>
+            <p class="text">Alexandr Ahobadze – a specialist in training and testing the neural network. Together with Danil and Andriy, he worked on refining the model, testing it on various datasets. Thanks to his efforts, the network demonstrates high accuracy and stability, handling tasks of any complexity.</p>
+        </div>
+    </div>
+    <footer  class="menuLink"><a href="#welcome" class="linkAsButton">Back to the menu</a></footer>
+
+</script>
+        <script id="template-opinions" type="text/template">
+    <article  id="artOpinions">
+        <div class="text1">
+            <h1>Visitors Opinions</h1>
+        </div>
+        <div id="opinionsContainer" class="coment">      
+    {{#.}}
+    <section>
+        <h3>{{name}} <i>{{created}}</i></h3>
+        <p>{{comment}}</p>
+        <p><strong>Feedback Type:</strong> {{feedbackType}}</p>
+        <p><strong>Keywords:</strong> {{keywords}}</p>
+        <p>{{subscribe ? "Subscribed to updates." : "Not subscribed."}}</p>
+        <p>{{willReturn ? "I will return to this page." : "Sorry, one visit was enough."}}</p>
+        {{#email}}
+        <p><strong>Email:</strong> <a href="mailto:{{email}}">{{email}}</a></p>
+        {{/email}}
+        {{#imageUrl}}
+        <p><strong>Shared Image:</strong></p>
+        <img src="{{imageUrl}}" alt="User-provided image" style="max-width: 200px; max-height: 200px;">
+        {{/imageUrl}}
+    </section>
+    {{/.}}
+    {{^.}}
+    <section>
+        Sorry, no opinions found.
+    </section>
+    {{/.}}
+        </div>
+        <footer  class="menuLink"><a href="#welcome" class="linkAsButton">Back to the menu</a></footer>
+    </article>
+</script>
+
+<script id="template-addOpinion" type="text/template">
+    <article id="artOpnFrm">
+        <h2>Your Opinion</h2>
+        <div class = text1>
+            <h1>Please, use the form below to state your opinion about our product.</h1>
+        </div>
+     
+        <div class="response">
+            <div class="form-content">
+                <div class="bot_txt">
+                    <h2>Complete all fields</h2>
+                </div>
+                <form id="opnFrm">
+                    <div>
+                        <label for="nameElm">Your name:</label>
+                        <input type="text" name="login" id="nameElm" size="20" maxlength="50" placeholder="Enter your name here" required />
+                    </div>
+                    <div>
+                        <label for="emailElm">Your email:</label>
+                        <input type="email" id="emailElm" name="email" placeholder="Enter your email here" required />
+                    </div>
+                    <div>
+                        <label for="imageUrlElm">Image URL (optional):</label>
+                        <input type="url" id="imageUrlElm" name="imageUrl" placeholder="Enter image URL" />
+                    </div>
+                    <h4>Your impressions:</h4>
+                    <label><input type="radio" name="feedbackType" value="positive" required> Positive</label>
+                    <label><input type="radio" name="feedbackType" value="neutral" required> Neutral</label>
+                    <label><input type="radio" name="feedbackType" value="negative" required> Negative</label>
+                    <div>
+                        <div class="checkbox-container">
+                            <label for="subscribeElm">
+                                <p>Subscribe to updates</p>
+                                <input type="checkbox" id="subscribeElm" name="subscribe">
+                            </label>
+                            <label for="willReturnElm">
+                                <p>Will return to this page</p>
+                                <input type="checkbox" id="willReturnElm" name="willReturn">
+                            </label>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="opnElm"><h4>Your opinion:</h4></label>
+                        <textarea name="comment" id="opnElm" cols="50" rows="3" placeholder="Express your opinion here" required></textarea>
+                    </div>
+                    <div>
+                        <label for="keywordsElm">Keywords:</label>
+                        <input type="text" id="keywordsElm" name="keywords" list="suggestedKeywords" placeholder="Enter keywords" />
+                    </div>
+                    <p>
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </p>
+                </form>
+            </div>
+            <div class="dog-image">
+                <img src="static/LOGO/dog-breed-svgrepo-com.svg" alt="Dog Image">
+            </div> 
+        </div>
+        
+        <footer class="menuLink"><a href="#welcome" class="linkAsButton">Back to the menu</a></footer>
+    </article>
+</script>
+
+        <script id="template-article" type="text/template">
+    <div class = "text1">
+        <h3 class="article-title">{{title}}</h3>
+    </div>
+    
+    <article class="article-container">
+        
+        <p class="article-author">by {{author}}</p>
+        {{#imageLink}}
+        <figure class="article-image">
+            <img src="{{imageLink}}" alt="article figure" />
+        </figure>
+        {{/imageLink}}
+        <div class="article-content">{{{content}}}</div>
+        <p class="article-tags">Keywords: {{tags}}</p>
+    </article>
+    <footer class="article-footer">
+        <a href="{{backLink}}" class="linkAsButton"><< Back</a>
+        <a href="{{editLink}}" class="linkAsButton">Edit</a>
+        <a href="{{deleteLink}}" class="linkAsButton">Delete</a>
+        <a href="#menuTitle" class="linkAsButton">Up to the menu</a>
+    </footer>
+</script>
+
+        <script id="template-article-form" type="text/template">
+        <div class = "text1">
+            <h1>Try to detect your dog right now!</h1>
+        </div>
+        <div class="how-it-works">
+            <h2>How it works?</h2>
+            <div class="steps">
+                <div class="step">
+                    <img src="static/LOGO/photo-camera-svgrepo-com.svg" alt="Camera Icon">
+                    <p>Take a picture of your pet.</p>
+                </div>
+                <div class="step">
+                    <img src="static/LOGO/hourglass-svgrepo-com.svg" alt="Analyze Icon">
+                    <p>The app analyzes the image.</p>
+                </div>
+                <div class="step">
+                    <img src="static/LOGO/bulldog-dog-svgrepo-com.svg" alt="Result Icon">
+                    <p>Get the breed description! It's BULLDOG!</p>
+                </div>
+            </div>
+        </div>
+        <img src="static/LOGO/down-arrow-svgrepo-com.svg" alt="" class = "arrow">
+
+        <div class="line_between"></div>
+
+        <div class = "textupload">
+            <h2>Upload your image</h2>
+        </div>
+
+        <div class="upload">
+            <div class="upload-left">
+                <h2>Select a picture of your dog</h2>
+                <input type="file" id="imageInput" accept="image/*" />
+                <button id="uploadBtn">Identify</button>
+                <img id="imagePreview" alt="" />
+            </div>
+            <div class="upload-right">
+                <div class= "resultstxt"><h2>Results of your request:</h2></div>
+                
+                <div id="breedName"></div>
+            </div>
+        </div>
+
+        <div class="line_between"></div>
+        <div class = "bot_txt">
+            <h3>You can also use our telegram bot! </h3>
+        </div>
+        <div class="bot_arrow">
+            <img src="static/LOGO/down-arrow-svgrepo-com.svg" alt="">
+        </div>
+        <button class = "bot_btn">
+            <a href="https://t.me/BreedifyBot" target="_blank">
+               Breedify Bot
+            </a>
+        </button >
+        <div class="line_between"></div>
+        <footer class="menuLink"><a href="#welcome" class="linkAsButton">Back to the menu</a></footer>
+</script>
+    </div>
+    <script type="module" src="static/js/index.js"></script>
+    <script type="module" src="static/js/addOpinion.js"></script>
+    <script type="module" src="static/js/style.js"></script>
+    <script type="module" src="static/js/neuro.js"></script>
+</body>
+
+</html>
