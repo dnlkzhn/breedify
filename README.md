@@ -1,5 +1,5 @@
 # Breedify
-Dog Breed Identification Using InceptionV3
+**Dog Breed Identification Using InceptionV3**<br>
 This project implements a convolutional neural network (CNN) based on the InceptionV3 architecture to identify dog breeds from photographic images. Leveraging transfer learning and advanced preprocessing techniques, the model achieves robust performance with limited computational resources.
 
 **Project Overview**<br>
