@@ -17,18 +17,18 @@ The system comprises **three** main components:
 
 **Mobile Application**<br>
 Capture or upload images for classification.<br>
-Results include breed identification and confidence levels:
+Results include breed identification and confidence levels:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;High Confidence (>70%): Reliable classification.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Moderate Confidence (50-70%): Informative but less certain.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Low Confidence (<50%): Limited reliability.<br>
 **Telegram Bot**<br>
-Upload images directly through Telegram for classification.
-Provides breed identification with confidence scores, same as mobile application
+Upload images directly through Telegram for classification.<br>
+Provides breed identification with confidence scores, same as mobile application.<br>
 
-**Methodology**
-Data
-Sources: Combined datasets from the Stanford Dogs Dataset and Kaggle Dog Breed Identification Dataset.
-Preprocessing: Training data augmented with real-world variations; validation data rescaled without augmentation.
+**Methodology**<br>
+**Data**<br>
+**Sources**: Combined datasets from the Stanford Dogs Dataset and Kaggle Dog Breed Identification Dataset.<br>
+**Preprocessing**: Training data augmented with real-world variations; validation data rescaled without augmentation.<br>
 Model
 Fine-tuned InceptionV3 architecture:
 GlobalAveragePooling2D, BatchNormalization, Dropout, and Dense layers added.
