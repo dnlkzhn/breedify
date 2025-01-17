@@ -11,11 +11,11 @@ The system comprises **three** main components:
 
 **Features**
 **Neural Network Model**
-**Architecture**: Pre-trained InceptionV3 model with a custom classification head.
-**Transfer Learning**: Fine-tuned for optimal performance on a dataset of dog breeds.
-**Data Augmentation**: Techniques include rotations, shifts, shearing, zooming, and flipping to improve generalization.
+**Architecture**: Pre-trained InceptionV3 model with a custom classification head.<br>
+**Transfer Learning**: Fine-tuned for optimal performance on a dataset of dog breeds.<br>
+**Data Augmentation**: Techniques include rotations, shifts, shearing, zooming, and flipping to improve generalization.<br>
 
-Mobile Application
+**Mobile Application**
 Capture or upload images for classification.
 Results include breed identification and confidence levels:
 High Confidence (>70%): Reliable classification.
